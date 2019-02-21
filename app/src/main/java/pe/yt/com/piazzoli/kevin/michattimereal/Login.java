@@ -70,6 +70,7 @@ public class Login extends AppCompatActivity {
 
         RBsesion.setOnClickListener(new View.OnClickListener() {
             //ACTIVADO
+            //Pudiera ser automatico el guardado de sesion?
             @Override
             public void onClick(View v) {
                 if(isActivateRadioButton){
